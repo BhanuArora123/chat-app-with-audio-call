@@ -1,0 +1,44 @@
+.loginHead {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.boldText {
+    font-weight: bold;
+}
+.logoHead ,.logoBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    /* font-size: 0.9rem; */
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.loginBox{
+    width: 60%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.switchAuthType {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupLine {
+    color: white;
+    padding-right: 7px;
+}
+.link {
+    color:#1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
